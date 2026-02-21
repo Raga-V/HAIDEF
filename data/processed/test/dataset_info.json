@@ -1,0 +1,66 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "medmcqa",
+  "dataset_size": 135548220,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/medmcqa@91c6572c454088bf71b679ad90aa8dffcd0d5868/data/train-00000-of-00001.parquet": {
+      "num_bytes": 85899025,
+      "checksum": null
+    },
+    "hf://datasets/medmcqa@91c6572c454088bf71b679ad90aa8dffcd0d5868/data/test-00000-of-00001.parquet": {
+      "num_bytes": 936358,
+      "checksum": null
+    },
+    "hf://datasets/medmcqa@91c6572c454088bf71b679ad90aa8dffcd0d5868/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 1476104,
+      "checksum": null
+    }
+  },
+  "download_size": 88311487,
+  "features": {
+    "presentation_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 223859707,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 131926150,
+      "num_examples": 182822,
+      "dataset_name": "medmcqa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1400119,
+      "num_examples": 6150,
+      "dataset_name": "medmcqa"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2221951,
+      "num_examples": 4183,
+      "dataset_name": "medmcqa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

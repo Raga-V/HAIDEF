@@ -1,0 +1,28 @@
+Looking in indexes: https://download.pytorch.org/whl/cpu
+Requirement already satisfied: torch in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (2.5.1)
+Collecting torch
+  Downloading https://download.pytorch.org/whl/cpu/torch-2.10.0%2Bcpu-cp311-cp311-win_amd64.whl.metadata (29 kB)
+Requirement already satisfied: filelock in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from torch) (3.20.3)
+Requirement already satisfied: typing-extensions>=4.10.0 in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from torch) (4.15.0)
+Collecting sympy>=1.13.3 (from torch)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: networkx>=2.5.1 in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from torch) (3.6.1)
+Requirement already satisfied: jinja2 in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from torch) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from torch) (2025.10.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from sympy>=1.13.3->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in C:\Users\Home\anaconda3\New folder\envs\haidef\Lib\site-packages (from jinja2->torch) (3.0.2)
+Downloading https://download.pytorch.org/whl/cpu/torch-2.10.0%2Bcpu-cp311-cp311-win_amd64.whl (113.6 MB)
+   ---------------------------------------- 113.6/113.6 MB 9.1 MB/s  0:00:12
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Installing collected packages: sympy, torch
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.13.1
+    Uninstalling sympy-1.13.1:
+      Successfully uninstalled sympy-1.13.1
+  Attempting uninstall: torch
+    Found existing installation: torch 2.5.1
+    Uninstalling torch-2.5.1:
+      Successfully uninstalled torch-2.5.1
+
+Successfully installed sympy-1.14.0 torch-2.10.0+cpu
+
